@@ -6,9 +6,6 @@ valores = (a, b) => {
 }
 valores(2, 2)
 
-<<<<<<< HEAD
-//Exe-02
-=======
 //Exe-02
 triangulo = (base, alt, comp) => {
     baseAlt = base;
@@ -53,5 +50,12 @@ jurosSimples(2000,0.10,4)
 jurosComposto(2000,0.10,4)
 
 //Exe-07
->>>>>>> ffa01efb456d89603f7fafdda371661ea460c914
+function cairNaConta(pis) {
+    if(cairNaConta){
+        console.log('Felicidade')
+    }else{
+        console.log('Serviço lixo')
+    }
+}
 
+cairNaConta(false)
